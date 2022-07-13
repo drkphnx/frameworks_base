@@ -633,7 +633,6 @@ public class VolumeDialogImpl implements VolumeDialog,
 
         mExpandRowsView = mDialog.findViewById(R.id.expandable_indicator_container);
         mExpandRows = mDialog.findViewById(R.id.expandable_indicator);
-	mExpandRows.setOnLongClickListener(this);
 
         mAppVolumeView = mDialog.findViewById(R.id.app_volume_container);
         mAppVolumeIcon = mDialog.findViewById(R.id.app_volume);
